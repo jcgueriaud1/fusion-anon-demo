@@ -10,5 +10,4 @@ public class HelloEndpoint {
   public void hello(String world) {
     System.out.println("Hello " + world);
   }
-
 }

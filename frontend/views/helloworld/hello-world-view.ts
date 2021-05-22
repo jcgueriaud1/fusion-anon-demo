@@ -10,7 +10,7 @@ export class HelloWorldView extends View {
   name: string = '';
 
   render() {
-    return html`
+    return html`<img src="images/logo.png" alt="logo" />
       <vaadin-text-field label="Your name" @value-changed="${this.nameChanged}"></vaadin-text-field>
       <vaadin-button @click="${this.sayHello}">Say hello</vaadin-button>
     `;
